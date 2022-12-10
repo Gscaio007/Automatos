@@ -1,0 +1,1253 @@
+html, body {padding:0; margin:0; height:100%;     display:flex;}
+footer{position: absolute; bottom: 0; left: 0; right: 0;}
+
+
+body {
+ 
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+ul {
+    padding: 0px !important;
+}
+
+main,
+.content {
+
+    position: relative;
+    margin: 0 auto;
+}
+
+.menu-principal {
+    background-color: #161a64;
+    width: 100%;
+    height: 65px;
+}
+
+.logo {
+    margin-left: 9px;
+    margin-top: -6px;
+    padding: 0px;
+    width: 9%;
+    float: left;
+    position: relative;
+}
+
+.logo-principal {
+    margin-left: 9px;
+    margin-top: 12px;
+    padding: 0px;
+    width: 9%;
+    float: left;
+    position: relative;
+}
+
+.menu li {
+    display: inline;
+    padding: 15px ;
+}
+
+
+.menu li a {
+    display: inline-block;
+    color: #fefefe;
+    text-decoration: none;
+    font: 16px verdana;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    transition: background .4s;
+    letter-spacing: 1px;
+}
+
+.menu {
+    margin-top: -15px;
+
+    text-align: center;
+}
+
+.busca {
+    width: 10%;
+    float: right;
+    margin-left: 46px;
+}
+
+
+.header-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    order: 1;
+}
+
+.menu {
+    order: 2;
+}
+
+.busca {
+    order: 3;
+}
+
+.col-100 {
+    width: 100%;
+    
+    float: left;
+    position: relative;
+}
+
+.busca input {
+    margin-left: 242px;
+    margin-top: 15px;
+    height: 36px;
+    width: 595px;
+    padding: 13px;
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: 99%;
+    border: 1px solid #d6d6d6;
+
+}
+
+
+.menu ul li a:hover {
+    background-color: #c42734;
+}
+
+
+
+
+.slick-list {
+    width: 100% !important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #d6d6d6;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+
+
+li.slick-active button {
+    background: #c56971;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .logofinal {
+            display:none;
+    padding: 0px;
+
+}
+
+.ibama {
+    display:none;
+    margin-left: -32px;
+    margin-top: 37px;
+}
+    
+    
+    
+    .busca{
+        display:none;
+        
+    }
+    
+    .revisoes{
+        display:none;
+        
+    }
+    
+    
+        .termos-politica li a {
+    display: none;
+    color: #adadad;
+    font: 12px sans-serif;
+    padding: 10px;
+}
+
+.termos-politica {
+    display:none;
+    margin-left: -560px;
+    margin-top: 90px;
+    height: 1%;
+    letter-spacing: 1px;
+}
+    
+          .imgmidres{
+            
+            height: 60px;
+            
+        }
+        
+    
+    
+.slider-principal {
+    width:100%;
+    height: 200px;
+   
+    position: absolute;
+}
+
+.slider-modelos {
+    width:40%;
+    height: 200px;
+   
+    position: absolute;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    position: absolute;
+    z-index: 9;
+    left: 12px;
+    top: 44%;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(../img/anterior.png);
+    cursor: pointer;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    position: absolute;
+    z-index: 9;
+    top: 44%;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(../img/posterior.png);
+    right: 44;
+    cursor: pointer;
+}
+
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+
+    position: absolute;
+    left: 30%;
+    top: 159px;
+
+}
+
+
+.texto-destaque {
+    font: 1em verdana;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 222px;
+
+}
+
+.busca input {
+    margin-left: 242px;
+    margin-top: 15px;
+    height: 0px;
+    width: 0px;
+    padding: 13px;
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: 99%;
+    border: 1px solid #d6d6d6;
+
+}
+
+
+
+}
+
+
+@media only screen and (min-width: 602px) {
+    
+    
+    .logofinal {
+    padding: 45px;
+
+}
+
+.ibama {
+    margin-left: -32px;
+    margin-top: 37px;
+}
+    
+    .termos-politica li a {
+    display: inline-block;
+    color: #adadad;
+    font: 12px sans-serif;
+    padding: 10px;
+}
+
+.termos-politica {
+    margin-left: -560px;
+    margin-top: 90px;
+    height: 1%;
+    letter-spacing: 1px;
+}
+
+    
+          .imgmidres{
+            
+            height: 230px;
+            
+        }
+        
+    
+    
+    
+.slider-principal {
+    width:100%;
+    height: 520px;
+   
+    position: absolute;
+}
+
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    position: absolute;
+    z-index: 9;
+    left: 44;
+    top: 44%;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(../img/anterior.png);
+    cursor: pointer;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    position: absolute;
+    z-index: 9;
+    top: 44%;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(../img/posterior.png);
+    right: 44;
+    cursor: pointer;
+}
+
+
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 46%;
+    top: 479px;
+
+}
+
+.texto-destaque {
+    font: 1em verdana;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 622px;
+
+}
+
+
+.busca input {
+    margin-left: 242px;
+    margin-top: 15px;
+    height: 36px;
+    width: 595px;
+    padding: 13px;
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: 99%;
+    border: 1px solid #d6d6d6;
+
+}
+
+
+}
+
+
+
+
+.header-2 {
+    margin-top: 10px;
+    margin-left: -9px;
+    height: 35px;
+    background-color: #0c0e35;
+
+    border-bottom: 5px solid #c42734;
+}
+
+.header-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-3 {
+    margin-left: -9px;
+    margin-top: 14px;
+    height: 35px;
+    background-color: #0c0e35;
+
+    border-bottom: 5px solid #c42734;
+}
+
+.header-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-1 {
+ 
+}
+
+.active {
+    background-color: #c42734;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    color: #1b1b1b;
+}
+
+
+.col-2 {
+
+
+}
+
+.texto-destaque h2 {
+    text-transform: uppercase;
+    color: #1b1b1b;
+}
+
+.banner-semifinal {
+
+ 
+    
+    margin-top: 30px;
+}
+
+.footer-2 {
+    height: 140px;
+    margin-top: 90px;
+    background-color: #0c0e35;
+}
+
+.footer-2 h4 {
+    color: #d6d6d6;
+}
+
+.footer-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.logofinal {
+    order: 1;
+}
+
+.ibama {
+    order: 2;
+}
+
+.revisoes {
+    order: 3;
+}
+
+.termos-politica {
+    order: 4;
+}
+
+
+
+.revisoes {
+    margin-left: 7px;
+    margin-top: 39px;
+    font: 12px verdana;
+    height: 70px;
+}
+
+.html {
+
+}
+
+.revisoes p {
+   
+    margin-top: 39px;
+    font: 12px verdana;
+    height: 10px;
+    color: #adadad;
+}
+
+.termos-politica li {
+    display: inline;
+
+}
+
+
+.textoprincipal {
+    margin-top: 10px;
+    padding: 13px;
+    color: #1b1b1b;
+    font: 1em verdana;
+
+}
+
+.footer-3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.footer-3 {
+    height: 140px;
+    margin-top: 50px;
+    background-color: #0c0e35;
+}
+
+.footer-3 h4 {
+    color: #d6d6d6;
+}
+
+.textoprincipal h2 {
+    margin-top: 120px;
+    font: 36px verdana;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.textoprincipal p {
+    margin-top: 5px;
+    margin-left: 150px;
+    text-align: justify;
+    max-width: 1520px;
+    letter-spacing: 0.5px;
+    padding: 10px 5px;
+    font: 1em verdana;
+}
+
+.textoprincipal h3 {
+    font: 26px verdana;
+    margin-top: 30px;
+    letter-spacing: 0.5px;
+    margin-left: 150px;
+    color: #1b1b1b;
+}
+
+.textoprincipal h6 {
+    margin-left: 190px;
+    color: #1b1b1b;
+    font: 1em verdana;
+    max-width: 1200px;
+    text-align: justify;
+}
+
+.textoprincipal-5 h1 {
+    margin-left: 120px;
+    margin-top: 40px;
+    font: 36px verdana;
+    text-transform: uppercase;
+    border-bottom: 3px solid #c42734;
+    max-width: 1520px;
+}
+
+.textoprincipal-5 p {
+    margin-top: 5px;
+    margin-left: 117px;
+    text-align: justify;
+    max-width: 1520px;
+    letter-spacing: 0.5px;
+    padding: 10px 5px;
+    font: 1em verdana;
+}
+
+.textoprincipal-5 h2 {
+    margin-left: 120px;
+    margin-top: 40px;
+    font: 36px verdana;
+    text-transform: uppercase;
+    border-bottom: 3px solid #c42734;
+    max-width: 1520px;
+}
+
+
+
+.footer-4 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.footer-4 {
+    height: 140px;
+    margin-top: 50px;
+    background-color: #0c0e35;
+}
+
+.footer-4 h4 {
+    color: #d6d6d6;
+}
+
+
+
+
+
+.banner-contato img {
+ 
+    
+    height: 720px;
+  
+    position: absolute;
+}
+
+
+
+form label {
+    color: #1b1b1b;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: verdana;
+}
+
+form input {
+    padding: 15px;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    transition: all 0.4s;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+select {
+    font-size: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+textarea {
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 170px;
+    font-size: 17px;
+    font-family: Rubik;
+}
+
+form input:focus {
+    border-radius: 16px;
+}
+
+form textarea:focus {
+    border-radius: 10px;
+}
+
+.enviar button {
+    margin-left: 700px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #02087c;
+    margin-top: 30px;
+    color: #ffffff;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: all 1s;
+}
+
+.marcarx label {
+    margin-left: 70px;
+    margin-top: -70px;
+    display: flex;
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+
+}
+
+.marcarx {
+    margin-top: 10px;
+    max-width: 900px;
+}
+
+.enviar button:hover {
+    background: #adadad;
+    color: #000000;
+    border-radius: 16px;
+}
+
+.main-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #0c0e35;
+    flex-direction: column;
+
+}
+
+.text-7 {
+    text-transform: uppercase;
+    font-family: Rubik;
+    font-size: 45px;
+    color: #fefefe;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.paragrafo {
+    font-family: Rubik;
+    color: #fefefe;
+    margin-bottom: 50px;
+    max-width: 390px;
+    margin-left: 117px;
+    text-align: justify;
+}
+
+.btn {
+    font-family: Rubik;
+    margin-left: 286px;
+    padding: 15px 15px;
+    background: #fefefe;
+    text-decoration: none;
+    color: #0c0e35;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background: #02087c;
+    color: #fefefe;
+    border-radius: 16px;
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px;
+}
+
+.marcarx input {
+    margin-left: 40px;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+.contatotelefone {
+    margin-left: 1490px;
+   
+    max-width: 300px;
+}
+
+.contatotelefone h1 {
+    color: #1b1b1b;
+    font-size: 55px;
+    font-family: Rubik;
+    text-transform: uppercase;
+    margin-bottom: 117px;
+}
+
+.contatotelefone p {
+    font-family: Rubik;
+    font-size: 25px;
+}
+
+.mapatexto {
+    margin-top: 800px;
+    margin-left: 130px;
+}
+
+.imagesmodelos li a img {
+    max-width: 400px;
+    max-height: 400px;
+    display: inline;
+    
+    
+}
+
+
+
+.cruze {
+    max-width: 400px;
+    max-height: 500px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.mitsubishi {
+    margin-left: 500px;
+    margin-top: -248px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.braia {
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 950px;
+    margin-top: -248px;
+
+}
+
+.braia img {
+    width: 400px;
+    height: 225px;
+}
+
+.active-2 {
+    background-color: #c42734;
+}
+
+.cruzeprincipal img {
+    margin-top: 20px;
+   width: 1280px;
+   height: 700px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.textocruze {
+    padding: 20px;
+    font-family: Rubik;
+}
+
+.textocruze p {
+    max-width: 900px;
+    font-size: 20px;
+}
+
+.slidercruze {
+    margin: 0 auto;
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slidescruze {
+    width: 400px;
+    height: 400px;
+ 
+}
+
+.slidescruze input {
+    display: none;
+    width: 8px;
+    height: 8px;
+}
+
+.slidecruze {
+    width: 25%;
+    position: relative;
+}
+
+.slidecruze img {
+    width: 700px;
+}
+
+.manual-navigationcruze {
+    position: absolute;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.cruzemanual-btn {
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.cruzemanual-btn:not(:last-child) {
+    margin-right: 20px;
+ 
+
+}
+
+#cruze1:checked~.first {
+    margin: 0;
+}
+
+#cruze2:checked~.first {
+    margin-left: -25%;
+
+}
+
+#cruze3:checked~.first {
+    margin-left: -50%;
+        
+}
+
+
+
+
+.navigationcruze div {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.navigationcruze {
+    position: absolute;
+    width: 700px;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigationcruze div:not(:last-child) {
+    margin-right: 20px;
+}
+
+#cruze1~.navigationcruze .cruzeauto-btn1 {
+    background-color: #b90101;
+
+}
+
+#cruze2~.navigationcruze .cruzeauto-btn2 {
+    background-color: #e4bb05;
+}
+
+#cruze3~.navigationcruze .cruzeauto-btn3 {
+    background-color: #2c2c2c;
+}
+
+#cruze1:checked~.navigationcruze .cruzeauto-btn1 {
+    background-color: #b90101;
+    border: 2px solid #b90101;
+}
+
+#cruze2:checked~.navigationcruze .cruzeauto-btn2 {
+    background-color: #e4bb05;
+    border: 2px solid #e4bb05;
+}
+
+#cruze3:checked~.navigationcruze .cruzeauto-btn3 {
+    background-color: #2c2c2c;
+    border: 2px solid #2c2c2c;
+}
+
+
+
+.textocruze h2 {
+    margin-left: 793px;
+    margin-top: 250px;
+}
+
+.manual-navigationcruze {
+    margin-left: -480px;
+    margin-top: 70px;
+}
+
+.navigationcruze {
+    margin-left: -480px;
+    margin-top: 470px;
+}
+
+.textocruzecont h2 {
+    margin-left: 40px;
+    display: inline;
+    padding: 90px;
+    color: #969696;
+    margin-bottom: 90px;
+}
+
+.textocruzecont {
+    margin-top: 200px;
+    text-align: center;
+    margin-left: -140px;
+    font-family: Rubik;
+
+}
+
+.textocruzecont h1 {
+    margin-bottom: 80px;
+    color: #1b1b1b;
+}
+
+
+.textocruzecont h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 25px;
+    display: inline;
+    color: #030303;
+    margin-left: 80px;
+}
+
+.cruzeexterior {
+    font-family: arial;
+    margin-top: 220px;
+    margin-left: 20px;
+    letter-spacing: 40px;
+}
+
+.cruzeexteriorimg img {
+    margin-top: -40px;
+    height: 237px;
+    width: 406px;
+    display: inline;
+    padding: 90px;
+}
+
+.cruzeinterior {
+    font-family: arial;
+    margin-top: 100px;
+    margin-left: 20px;
+    letter-spacing: 40px;
+}
+
+.cruzeinteriorimg img {
+    margin-top: -40px;
+    height: 237px;
+    width: 406px;
+    display: inline;
+    padding: 90px;
+}
+
+
+.footer-5 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.footer-5 {
+    height: 140px;
+    margin-top: 50px;
+    background-color: #0c0e35;
+}
+
+.footer-5 h4 {
+    color: #d6d6d6;
+}
+
+.active-3 {
+    background-color: #49e65e;
+}
+
+.mitsuprincipal img {
+    margin-top: 20px;
+    width: 1870px;
+    max-height: 1080px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.textomitsu {
+    padding: 20px;
+    font-family: Rubik;
+}
+
+.textomitsu p {
+    max-width: 900px;
+    font-size: 20px;
+}
+
+.textomitsu h2 {
+    margin-left: 900px;
+}
+
+.mitsuversoes {
+    margin-left: 330px;
+}
+
+.textomitsucont h2 {
+    margin-left: 40px;
+    display: inline;
+    padding: 90px;
+    color: #969696;
+    margin-bottom: 90px;
+}
+
+.textomitsucont {
+
+    margin-top: 200px;
+    text-align: center;
+    margin-left: -140px;
+    font-family: Rubik;
+
+}
+
+.textomitsucont h1 {
+    margin-bottom: 80px;
+    color: #1b1b1b;
+}
+
+
+.textomitsucont h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 25px;
+    display: inline;
+    color: #030303;
+    margin-left: 80px;
+}
+
+.mitsuexterior {
+    font-family: arial;
+    margin-top: 220px;
+    margin-left: 20px;
+    letter-spacing: 40px;
+}
+
+.mitsuexteriorimg img {
+    margin-top: -40px;
+    height: 237px;
+    width: 406px;
+    display: inline;
+    padding: 90px;
+}
+
+.footer-6 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.footer-6 {
+    height: 140px;
+    margin-top: 50px;
+    background-color: #0c0e35;
+}
+
+.footer-6 h4 {
+    color: #d6d6d6;
+}
+
+.active-4 {
+    background-color: #5e43f5;
+}
+
+.braiaprincipal img {
+    margin-top: 20px;
+    width: 1870px;
+    max-height: 1080px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.textobraia {
+    padding: 20px;
+    font-family: Rubik;
+}
+
+.textobraia p {
+    max-width: 900px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.textobraia h2 {
+    margin-left: 900px;
+}
+
+.braiaversoes {
+    margin-left: 330px;
+}
+
+.textobraiacont h2 {
+    margin-left: 40px;
+    display: inline;
+    padding: 90px;
+    color: #969696;
+    margin-bottom: 90px;
+}
+
+.textobraiacont {
+
+    margin-top: 200px;
+    text-align: center;
+    margin-left: -140px;
+    font-family: Rubik;
+
+}
+
+.textobraiacont h1 {
+    margin-bottom: 80px;
+    color: #1b1b1b;
+}
+
+
+.textobraiacont h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 25px;
+    display: inline;
+    color: #030303;
+    margin-left: 80px;
+}
+
+.braiaexterior {
+    font-family: arial;
+    margin-top: 220px;
+    margin-left: 20px;
+    letter-spacing: 40px;
+}
+
+.braiaexteriorimg img {
+    margin-top: -40px;
+    height: 237px;
+    width: 406px;
+    display: inline;
+    padding: 90px;
+}
+
+.braiaversoes img {
+
+
+    max-width: 1503px;
+    margin-right: 200px;
+    height: 800px;
+}
+
+
+.footer-7 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.footer-7 {
+    height: 140px;
+    margin-top: 790px;
+    background-color: #0c0e35;
+}
+
+.footer-7 h4 {
+    color: #d6d6d6;
+}
+
+
+
+
+
+
+
+
